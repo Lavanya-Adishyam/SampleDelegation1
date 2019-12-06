@@ -17,7 +17,6 @@ class ViewController: UIViewController, colorChangeDelegate {
     
     func colorChange(color:UIColor) {
         view.backgroundColor = color
-        print(color)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
