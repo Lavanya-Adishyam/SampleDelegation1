@@ -15,6 +15,7 @@
 		BF3FE9DE23991D0200EF6458 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3FE9DC23991D0200EF6458 /* LaunchScreen.storyboard */; };
 		BF3FE9E923991D0200EF6458 /* SampleDelegationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3FE9E823991D0200EF6458 /* SampleDelegationTests.swift */; };
 		BF3FE9F423991D0200EF6458 /* SampleDelegationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3FE9F323991D0200EF6458 /* SampleDelegationUITests.swift */; };
+		BF3FEA0223991E4100EF6458 /* ColorChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3FEA0123991E4100EF6458 /* ColorChangeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BF3FE9EF23991D0200EF6458 /* SampleDelegationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleDelegationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF3FE9F323991D0200EF6458 /* SampleDelegationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDelegationUITests.swift; sourceTree = "<group>"; };
 		BF3FE9F523991D0200EF6458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF3FEA0123991E4100EF6458 /* ColorChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChangeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				BF3FE9D023991D0100EF6458 /* AppDelegate.swift */,
 				BF3FE9D223991D0100EF6458 /* ViewController.swift */,
+				BF3FEA0123991E4100EF6458 /* ColorChangeViewController.swift */,
 				BF3FE9D423991D0100EF6458 /* Main.storyboard */,
 				BF3FE9DA23991D0200EF6458 /* Assets.xcassets */,
 				BF3FE9DC23991D0200EF6458 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				BF3FE9D323991D0100EF6458 /* ViewController.swift in Sources */,
 				BF3FE9D923991D0100EF6458 /* SampleDelegation.xcdatamodeld in Sources */,
+				BF3FEA0223991E4100EF6458 /* ColorChangeViewController.swift in Sources */,
 				BF3FE9D123991D0100EF6458 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
